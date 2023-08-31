@@ -4,12 +4,13 @@ title: Student Blog
 ---
 
 
-## Build you Home Page here 
+## Gabe Hall Star Wars Coding Blog
 This is about your journey. Start now!!!
 
-## Overview of Hacks, Study and Tangibles
-Blogging in GitHub pages is a way to learn and code at the same time. 
+## Welcome to my blog
+I am a star wars fan and i like star wars and i want to learn how to code. 
+- I am in 12th grade and my hobbies are listing to 80s/90s muisc and i like to play board games and i also like to read comics like marvel and dc and i also like to play video games and i am also a lego master builder.
+- My career job for the future that i want to do is computer programming.
+- My favorite star wars movies are star wars the rise of skywalker and star wars return of the jedi. 
 
-- Plans, Lists, [Scrum Boards](https://clickup.com/blog/scrum-board/) help you to track key events, show progress and record time.  Effort is a big part of your class grade.  Show plans and time spent!
-- [Hacks(Todo)](https://levelup.gitconnected.com/six-ultimate-daily-hacks-for-every-programmer-60f5f10feae) enable you to stay in focus with key requirements of the class.  Each Hack will produce Tangibles.
-- Tangibles or [Tangible Artifacts](https://en.wikipedia.org/wiki/Artifact_(software_development)) are things you accumulate as a learner and coder. 
+![]({{site.baseurl}}/images/IMG_0172.PNG)
