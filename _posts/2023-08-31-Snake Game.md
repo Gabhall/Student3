@@ -2,7 +2,7 @@
 toc: true
 comments: false
 layout: post
-title: Sanke game
+title: Snake game
 description: This is a snake game.
 type: hacks
 courses: { compsci: {week: 2} }
