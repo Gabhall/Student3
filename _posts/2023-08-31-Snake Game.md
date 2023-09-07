@@ -335,6 +335,7 @@ courses: { compsci: {week: 2} }
             ctx.fillStyle = "#FFFFFF";
             ctx.fillRect(x * BLOCK, y * BLOCK, BLOCK, BLOCK);
         }
+
         /* Random food placement */
         /////////////////////////////////////////////////////////////
         let addFood = function(){
@@ -372,13 +373,3 @@ courses: { compsci: {week: 2} }
         }
     })();
 </script>
-let addFood = function(){
-    food.x = Math.floor(Math.random() * ((canvas.width / BLOCK) - 1));
-    food.y = Math.floor(Math.random() * ((canvas.height / BLOCK) - 1));
-    for(let i = 0; i < snake.length; i++){
-        if(checkBlock(food.x, food.y, snake[i].x, snake[i].y)){
-            addFood();
-        }
-    }
-}
-
