@@ -342,6 +342,7 @@ courses: { compsci: {week: 2} }
             image.src = "{{ '/images/Apple.jpg' | relative_url }}"; // Replace 'image.png' with the path to your image
             image.onload = function() {
             ctx.drawImage(image, x * BLOCK, y * BLOCK, 16, 16);
+    };
 
 
         /* Random food placement */
