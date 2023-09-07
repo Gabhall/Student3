@@ -331,18 +331,18 @@ courses: { compsci: {week: 2} }
         }
         /* Dot for Food or Snake part */
         /////////////////////////////////////////////////////////////
-        let activeDot = function(x, y){
-            ctx.fillStyle = "#FFFFFF";
-            ctx.fillRect(x * BLOCK, y * BLOCK, BLOCK, BLOCK);
-        }
-        let appleDot = function(x, y){
-           ctx.font = "16px Arial"; // Adjust the font size and family here
-           // Draw the image on the canvas at the specified coordinates (x * BLOCK, y * BLOCK)
-           const image = new Image();
-            image.src = "{{ '/images/Apple.jpg' | relative_url }}"; // Replace 'image.png' with the path to your image
-            image.onload = function() {
-            ctx.drawImage(image, x * BLOCK, y * BLOCK, 16, 16);
+        // ... (your existing code)
+
+// Define a function to render an apple image on the canvas
+let appleDot = function(x, y) {
+    const appleImage = new Image();
+    appleImage.src = "/images/Apple.jpg"; // Replace with the actual path to your apple image
+    appleImage.onload = function() {
+        ctx.drawImage(appleImage, x * BLOCK, y * BLOCK, 16, 16);
     };
+}
+
+// ... (continue with the rest of your code)
 
 
         /* Random food placement */
