@@ -268,7 +268,7 @@ courses: { compsci: {week: 2} }
                 snake[snake.length] = {x: snake[0].x, y: snake[0].y};
                 altScore(++score);
                 addFood();
-                activeDot(food.x, food.y);
+                appleDot(food.x, food.y);
             }
             // Repaint canvas
             ctx.beginPath();
@@ -279,7 +279,7 @@ courses: { compsci: {week: 2} }
                 activeDot(snake[i].x, snake[i].y);
             }
             // Paint food
-            activeDot(food.x, food.y);
+            appleDot(food.x, food.y);
             // Debug
             //document.getElementById("debug").innerHTML = snake_dir + " " + snake_next_dir + " " + snake[0].x + " " + snake[0].y;
             // Recursive call after speed delay, déjà vu
@@ -332,11 +332,15 @@ courses: { compsci: {week: 2} }
         /* Dot for Food or Snake part */
         /////////////////////////////////////////////////////////////
         // ... (your existing code)
+let activeDot = function(x,y){
+    ctx.fillStyle = "#FFFFFF";
+    ctx.fillRect(x * BLOCK, y* BLOCK, BLOCK, BLOCK);
+}
 
 // Define a function to render an apple image on the canvas
 let appleDot = function(x, y) {
     const appleImage = new Image();
-    appleImage.src = "/images/Apple.jpg"; // Replace with the actual path to your apple image
+    appleImage.src = "{{'/images/Apple.jpg' | relative_url }}"; // Replace with the actual path to your apple image
     appleImage.onload = function() {
         ctx.drawImage(appleImage, x * BLOCK, y * BLOCK, 16, 16);
     };
