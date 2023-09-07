@@ -372,7 +372,7 @@ courses: { compsci: {week: 2} }
         }
     })();
 </script>
-let addFood = function(){
+let addFood = function(){apple
     food.x = Math.floor(Math.random() * ((canvas.width / BLOCK) - 1));
     food.y = Math.floor(Math.random() * ((canvas.height / BLOCK) - 1));
     for(let i = 0; i < snake.length; i++){
