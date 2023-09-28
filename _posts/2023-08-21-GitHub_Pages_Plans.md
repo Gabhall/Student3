@@ -11,6 +11,7 @@ courses: { compsci: {week: 1} }
 ### PBL Unit 1 / Week 1
 Learning outcome. Building a personal and running GitHub Pages.
 - I created the linix shell note book and the js output and the js input.
+i created a dog motion and a the web basic programming and i also created the js caulater.
 
 
 ### Pair Planning Meeting
