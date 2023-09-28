@@ -3,7 +3,7 @@ toc: true
 comments: false
 layout: post
 title: Dog motion
-description: This is a dog motion sprite sheet 
+description: This is my dog motion sprite sheet 
 type: hacks
 courses: { compsci: {week: 3} }
 ---
