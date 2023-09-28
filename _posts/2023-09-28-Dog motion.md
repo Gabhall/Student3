@@ -2,8 +2,8 @@
 toc: true
 comments: false
 layout: post
-title: Dog motion
-description: This is my dog motion sprite sheet 
+title: star wars animation sprite sheet
+description: This is my star wars sprite sheet animation
 type: hacks
 courses: { compsci: {week: 3} }
 ---
