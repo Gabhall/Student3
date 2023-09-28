@@ -5,7 +5,7 @@ layout: post
 title: Dog motion
 description: This is a dog motion sprite sheet 
 type: hacks
-courses: { compsci: {week: 2} }
+courses: { compsci: {week: 4} }
 ---
 
 <body>
