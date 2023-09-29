@@ -11,7 +11,7 @@ courses: { compsci: {week: 3} }
 <body>
     <div>
         <canvas id="spriteContainer"> <!-- Within the base div is a canvas. An HTML canvas is used only for graphics. It allows the user to access some basic functions related to the image created on the canvas (including animation) -->
-            <img id="Stromtropper Sprite" src="{{site.baseurl}}/images/Stromtropper sprite sheet animantion.png">  // change sprite here
+            <img id="Stromtropper Sprite" src="{{site.baseurl}}/images/Stromtropper sprite.png">  // change sprite here
         </canvas>
         <div id="controls"> <!--basic radio buttons which can be used to check whether each individual animaiton works -->
             <input type="radio" name="animation" id="idle" checked>
