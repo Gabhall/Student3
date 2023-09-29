@@ -97,7 +97,7 @@ courses: { compsci: {week: 3} }
             }
         });
 
-        var animationSpeed = 2;
+        var animationSpeed = 3;
         // Animation recursive control function
         function animate() {
             // Clears the canvas to remove the previous frame.
