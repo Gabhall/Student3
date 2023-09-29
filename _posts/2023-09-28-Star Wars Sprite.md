@@ -11,7 +11,7 @@ courses: { compsci: {week: 3} }
 <body>
     <div>
         <canvas id="spriteContainer"> <!-- Within the base div is a canvas. An HTML canvas is used only for graphics. It allows the user to access some basic functions related to the image created on the canvas (including animation) -->
-            <img id="Stormtropper Sprite" src="{{site.baseurl}}/images/Stormtroppersprite.png">  // change sprite here
+            <img id="StormtropperSprite" src="{{site.baseurl}}/images/Stormtroppersprite.png">  // change sprite here
         </canvas>
         <div id="controls"> <!--basic radio buttons which can be used to check whether each individual animaiton works -->
             <input type="radio" name="animation" id="idle" checked>
@@ -29,9 +29,9 @@ courses: { compsci: {week: 3} }
     window.addEventListener('load', function () {
         const canvas = document.getElementById('spriteContainer');
         const ctx = canvas.getContext('2d');
-        const SPRITE_WIDTH = 160;  // matches sprite pixel width
-        const SPRITE_HEIGHT = 144; // matches sprite pixel height
-        const FRAME_LIMIT = 48;  // matches number of frames per sprite row, this code assume each row is same
+        const SPRITE_WIDTH = 33;  // matches sprite pixel width
+        const SPRITE_HEIGHT = 36; // matches sprite pixel height
+        const FRAME_LIMIT = 14;  // matches number of frames per sprite row, this code assume each row is same
 
         const SCALE_FACTOR = 2;  // control size of sprite on canvas
         canvas.width = SPRITE_WIDTH * SCALE_FACTOR;
@@ -39,7 +39,7 @@ courses: { compsci: {week: 3} }
 
         class Dog {
             constructor() {
-                this.image = document.getElementById("dogSprite");
+                this.image = document.getElementById("StormtropperSprite");
                 this.x = 0;
                 this.y = 0;
                 this.minFrame = 0;
@@ -97,6 +97,7 @@ courses: { compsci: {week: 3} }
             }
         });
 
+        var animationSpeed = 2;
         // Animation recursive control function
         function animate() {
             // Clears the canvas to remove the previous frame.
@@ -108,9 +109,13 @@ courses: { compsci: {week: 3} }
             // Updates the `frameX` property to prepare for the next frame in the sprite sheet.
             dog.update();
 
+          setTimeout(function() {
+                // Call requestAnimationFrame recursively
+                requestAnimationFrame(animate);
+            }, 1000 / animationSpeed);
             // Uses `requestAnimationFrame` to synchronize the animation loop with the display's refresh rate,
             // ensuring smooth visuals.
-            requestAnimationFrame(animate);
+            //requestAnimationFrame(animate);
         }
 
         // run 1st animate
