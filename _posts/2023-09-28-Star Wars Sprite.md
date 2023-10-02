@@ -3,7 +3,7 @@ toc: true
 comments: false
 layout: post
 title: Star Wars Animation Sprite Sheet
-description: This is my Star Wars Sprite Sheet Animation of a stormtropper from Star Wars
+description: This is my Sprite Sheet Animation of a stormtropper from Star Wars
 type: hacks
 courses: { compsci: {week: 3} }
 ---
