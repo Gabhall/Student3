@@ -123,5 +123,6 @@ courses: { compsci: {week: 3} }
     });
 </script>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/s3SZ5sIMY6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u7HF4JG1pOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
