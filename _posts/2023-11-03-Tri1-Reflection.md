@@ -24,3 +24,11 @@ things that we covered
 - worked on Js calulator
 - worked on a simple plan 
 - created a blog for my student repository on git hub
+
+Things that i learned about for computer science and software enggering from trimester 1.
+- Is that sometimes you can make mistacks from coding which is ok and it happens sometimes.
+- Ask a teacher or a student to help you with coding if you are stuck with something or is falling behind the class
+- Just put in good effort into your work.
+- go into git hub and look at the steps for each coding work and it can help you for what you need to do for the class
+
+
